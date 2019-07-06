@@ -1,0 +1,28 @@
+body {
+  background-image: url("../images/netflix-shows-bg.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: #fff;
+  height: 100%;
+}
+.container {
+  background: rgba(0, 0, 0, 0.8);
+}
+section .container {
+  border-top: 1px solid #fff;
+  color: #000;
+}
+.bg-light {
+  min-height: 450px;
+}
+#background-image {
+  background-image: url("../images/netflix-shows-bg.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 350px;
+}
+@media screen and (max-width: 768px) {
+  .bg-light {
+    min-height: auto;
+  }
+}
